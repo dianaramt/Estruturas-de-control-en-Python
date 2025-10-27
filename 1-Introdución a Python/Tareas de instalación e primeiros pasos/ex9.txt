@@ -1,0 +1,17 @@
+--VSC--
+Para usar Python en VSC:
+- Ter instalado python e VSC no ordenador 
+- Instalamos en VSC a extensión Python(de Microsoft)
+- Reiniciamos o VSC
+- Ctrl+Shift+P e poñemos:
+    Python: Select Interpreter
+
+    Seleccionamos a opción de 3.14.0
+-Probamos indo ao arquivo .py e pulsando F5 ou dándolle ao símbolo de Play e despois a Run
+
+Podemos usar tamén jupyter notebooks instalando a extensión Jupyter(de Microsoft) en VSC e creando un .ipynb
+(ver en proba.ipynb)
+
+--PyCharm--
+No meu caso teño unha versión de 2023 de Pycharm Community Edition 
+Interfaz moi intuitiva

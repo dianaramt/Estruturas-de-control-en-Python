@@ -1,0 +1,8 @@
+Que é un entorno virtual?
+
+Un entorno virtual é un espazo illado onde podes instalar bibliotecas e dependencias sen afectar ao Python global do teu sistema.
+Cada proxecto pode ter o seu propio entorno con paquetes específicos.
+Evita conflitos entre versións de bibliotecas en distintos proxectos.
+Hai dúas formas comúns de crealos en Python:
+-venv → integrado en Python 3.
+-virtualenv → máis antigo, pero con algunhas opcións avanzadas.

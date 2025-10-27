@@ -1,0 +1,17 @@
+--Binder--
+ permite executar notebooks directamente desde un repositorio de GitHub.
+
+Pasos:
+-Subimos o notebook a GitHub.
+-Imos a https://mybinder.org
+-Introducimos a URL do repositorio
+-Facemos clic en Launch.
+-Abrirase un entorno en liña onde o notebook se pode executar sen instalar nada.
+
+--Google Colab--
+ permite executar notebooks en la nube.
+
+-Abrimos Google Colab.
+-Selecciona File → Upload Notebook e subimos o .ipynb.
+-Podemos compartir co compañeiro con Share → Copy Link.
+-A outra persoa pode executar o notebook en liña, incluso sen instalar Python.

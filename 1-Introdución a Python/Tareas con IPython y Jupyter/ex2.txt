@@ -1,0 +1,25 @@
+--Características interesantes ipython--
+
+Autocompletado: usa la tecla Tab para completar nombres de variables, funciones y módulos.
+Historial: usa las flechas arriba/abajo para navegar por el historial de comandos.
+Magias: comandos especiales que comienzan con % o %% para realizar tareas específicas, como %timeit para medir el tiempo de ejecución de una expresión. Por ejemplo, %lsmagic muestra todas las magias disponibles. Un resumen de las magias más comunes (la lista completa está en https://ipython.readthedocs.io/en/stable/interactive/magics.html):
+%ls - lista los archivos en el directorio actual (equivalente a !ls en Unix o !dir en Windows).
+%env - Muestra o establece variables de entorno.
+%run - Ejecuta un script de Python.
+%load - Carga código desde un archivo en la celda actual.
+%pwd - Muestra el directorio de trabajo actual.
+%cd - Cambia el directorio de trabajo.
+%time - Mide el tiempo de ejecución de una sola línea de código.
+%timeit - Mide el tiempo de ejecución de una línea de código varias veces
+%%time - Mide el tiempo de ejecución de una celda completa.
+%%timeit - Mide el tiempo de ejecución de una celda completa varias veces.
+%who - Lista todas las variables definidas en el entorno actual.
+%whos - Lista todas las variables con detalles adicionales (tipo, tamaño, etc.).
+%reset - Elimina todas las variables del entorno actual.
+%matplotlib - Configura la integración de Matplotlib para gráficos interactivos (ya no se precisa en versiones recientes).
+%debug - Inicia el depurador interactivo en el punto donde ocurrió un error.
+etc.
+Integración con el sistema operativo: se puede ejecutar comandos del sistema directamente desde IPython usando !, por ejemplo, !ls en Unix o !dir en Windows.
+Visualización: soporte integrado para gráficos y visualizaciones, especialmente cuando se usa con bibliotecas como Matplotlib.
+
+(Probar algúns en ipython)

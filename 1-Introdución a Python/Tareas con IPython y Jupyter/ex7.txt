@@ -1,0 +1,5 @@
+Primeiro hai que instalar todo, en python:
+
+!pip install pandas
+!pip install numpy
+!pip install matplotlib

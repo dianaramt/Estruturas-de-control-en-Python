@@ -1,0 +1,5 @@
+Feito o notebook de maxia.ipynb
+
+Acordarse que primeiro hai que instalar numpy e matplotlib:
+!pip install numpy
+!pip install matplotlib

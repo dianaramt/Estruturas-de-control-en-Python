@@ -1,0 +1,6 @@
+Para ter python en Android instalar Pydroid3, aínda que se facemos:
+
+import sys
+print(sys.version)
+
+vainos devolver unha versión 3.13 e non 3.14, teriamos que ter outra apk que non sexa a da PlayStore

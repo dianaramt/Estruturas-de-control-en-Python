@@ -1,0 +1,8 @@
+--Biblioteca Math--
+import math
+(temos logaritmos, funcións trigonométricas, constantes matemáticas...)
+Para números complexos usar cmath non esta
+
+--Biblioteca Random--
+import random
+(para xerar distintos numeros aleatorios, mirar exemplos que clarifican máis)

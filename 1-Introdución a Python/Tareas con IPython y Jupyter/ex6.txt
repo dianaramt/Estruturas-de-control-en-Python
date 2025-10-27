@@ -1,0 +1,2 @@
+Para ir a jupyterlab:
+http://localhost:8888/lab
