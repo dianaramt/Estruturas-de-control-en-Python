@@ -1,0 +1,8 @@
+--Ver que está instalado--
+Ir ao CMD e poñer:
+py --version
+python --version
+--Para instalar outra version--
+Buscar no buscador: Python instalar
+Descargarase un archivo que ao executalo debemos SELECCIONAR A OPCIÓN DE POÑER NO PATH
+Comprobamos outra vez e vemos que temos a versión que instalamos agora (3.14.0 no meu caso)

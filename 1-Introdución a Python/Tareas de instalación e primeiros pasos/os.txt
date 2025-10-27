@@ -1,4 +1,0 @@
-import os importar os
-os.listdir('.') listar directorios
-os.chdir("./diana") cambiar de directorio
-os.getcwd() ver en que directorio estou

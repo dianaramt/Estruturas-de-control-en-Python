@@ -1,7 +1,8 @@
+--Para instalar--
 pip install ipython
 pip install notebook
 
-------
+--Para executar--
 ipython 
 jupyter notebook --> abrese en localhost:8888
 

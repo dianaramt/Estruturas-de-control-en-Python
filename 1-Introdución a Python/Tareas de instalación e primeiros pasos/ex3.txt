@@ -1,0 +1,29 @@
+--REPL interactivo--
+É para probar código rapidamente
+REPL significa:
+Read → Eval → Print → Loop
+
+- Read (Ler): lee a instrucción que escribes.
+- Eval (Evaluar): Evalúa ou executa.
+- Print (Imprimir): Mostra o resultado na pantalla-
+- Loop (Repetir): Volve a empezar ou espera a seguinte instrucción.
+
+Para entrar nela poñemos en CMD:
+py 
+python
+
+Para saír:
+exit
+
+Para a versión mellorada:
+ipython
+
+
+--IDLE--
+IDLE significa Integrated Development and Learning Environment
+(en español: Entorno Integrado de Desarrollo y Aprendizaje).
+
+Es el entorno gráfico oficial de Python e descargase co propio python 
+
+Para entrar nel buscamos no noso sistema operativo:
+IDLE Python

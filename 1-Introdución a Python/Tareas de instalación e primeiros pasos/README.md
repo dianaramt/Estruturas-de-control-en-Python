@@ -1,35 +1,16 @@
-1. Instala IPython y Jupyter en tu entorno de desarrollo.
-2. Inicia una sesión de IPython y prueba algunas de las características mencionadas.
-3. Lee la documentación oficial de IPython y Jupyter para familiarizarte con más características y funcionalidades: https://ipython.readthedocs.io/en/stable/index.html, https://jupyter.org
-4. (Opcional, sobre todo para los que ya tengan conocimiento) Crea un Jupyter Notebook y escribe un pequeño programa en Python que utilice algunas de las magias de IPython.
-5. (Opcional) Busca cómo compartir un/tu notebook con un compañero/a o en un repositorio de GitHub (prueba a usar Binder o Google Colab para ejecutarlo en línea).
-6. (Opcional) Investiga sobre otras herramientas del ecosistema Jupyter, como JupyterLab y JupyterHub, y considera cómo podrían ser útiles en tus proyectos futuros.
-7. (Opcional) Explora la integración de IPython con bibliotecas populares de Python, como NumPy, pandas y Matplotlib, y crea un notebook que demuestre esta integración. Prueba con el ejemplo:
+1.  Asegúrate de tener Python instalado y funcionando en tu sistema. Verifica la instalación ejecutando python --version o py --version en la línea de comandos. Comprueba que es la versión 3.13.7 o superior (o la última disponible).
 
-```python
-# NumPy: operaciones matemáticas avanzadas
-import numpy as np
-# Crear un array y calcular su media
-array = np.array([1, 2, 3, 4, 5])
-media = np.mean(array) # Cálculo de la media
-print(f"Media del array: {media}")  # Salida: Media del array: 3.0
-```
+2.  Crea una carpeta dedicada para los ejemplos y prácticas del curso y organiza el código en subcarpetas por unidad. Dentro de ellas puedes crear una para ejercicios y otra para ejemplos, si lo deseas.
 
-O que genere la gráfica de una función matemática con Matplotlib:
+3.  Familiarízate con el REPL interactivo y IDLE. Prueba a ejecutar algunos comandos simples en ambos entornos. Por ejemplo: print("Hola, Mundo!") o con alguna biblioteca estándar como import os y os.listdir('.'). Inspecciona qué otros métodos puedes usar (usa la ayuda con help(os)).:
 
-```python
-# Matplotlib: creación de gráficos
-import matplotlib.pyplot as plt # Importar Matplotlib con un alias
-import numpy as np # Importar NumPy con un alias
-# Crear datos
-x = np.linspace(0, 10, 100) # 100 puntos entre 0 y 10
-y = np.sin(x) # Función seno de x
-# Crear gráfico
-plt.plot(x, y) # Graficar y vs x
-plt.title("Gráfico de la función seno") # Título del gráfico
-plt.xlabel("x")                         # Etiqueta del eje x
-plt.ylabel("sin(x)")                    # Etiqueta del eje y
-plt.grid()                              # Añadir cuadrícula
-plt.show()                              # Mostrar el gráfico
+4.  Practica cambiar de directorio en la línea de comandos y dentro de Python usando os.chdir().
 
-```
+5.  Escribe y ejecuta un script sencillo que imprima una cita de Wittgenstein en la consola como: “Los límites de mi lenguaje son los límites de mi mundo.” o, todavía mejor, “Una nueva palabra es como una nueva especie: no puede ser forzada, debe surgir.” (Tractatus Logico-Philosophicus, . Puedes usar cualquier editor de texto básico (como Notepad en Windows, TextEdit en macOS en modo texto plano, o nano/vi en Linux) o un IDE como IDLE o PyCharm (lo veremos más adelante).
+6.  Guarda el archivo como wittgenstein.py en la carpeta del curso y ejecútalo desde la línea de comandos o IDLE:
+
+7.  (Opcional, en especial para los que ya saben algo de Python) Explora la documentación oficial de Python en https://docs.python.org/3/ para familiarizarte con los recursos disponibles. Intenta buscar información sobre funciones y módulos que te interesen. Como el módulo math o random. O el empleado en el ejemplo anterior, os (https://docs.python.org/3/library/os.html#module-os)
+8.  (Opcional) Si te sientes cómodo y conoces otros Sistemas Operativos, intenta instalar Python en un entorno diferente (como WSL en Windows o una aplicación en Android) y repite los pasos anteriores para asegurarte de que todo funciona correctamente.
+9.  (Opcional) Experimenta con otros IDE o editores de texto que soporten Python, como VSCode, PyCharm, o Jupyter Notebooks, para ver cuál prefieres para tu flujo de trabajo. Estos los veremos más adelante o en la materia de Análisis de datos con Python. EN este módulo trabajaremos también con Jupyter Notebooks y PyCharm.
+10. (Opcional) Investiga sobre entornos virtuales en Python usando venv o virtualenv para gestionar dependencias de proyectos futuros. Aunque no es necesario para este curso, es una buena práctica para proyectos más grandes. Lo veremos en breve.
+11. (Opcional) Si tienes tiempo y ganas, explora la instalación de Python en dispositivos móviles (Android o iOS) y prueba a ejecutar código en esos entornos. Esto puede ser útil si deseas practicar Python sobre la marcha (yo tengo dos herramientas en Android: Termux y Pydroid 3 con las que puedo practicar en cualquier lugar y hago pruebas rápidas de código).

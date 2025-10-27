@@ -1,0 +1,9 @@
+--Dende terminal--
+Imos á carpeta onde temos o .py e abrimos a terminal aí.
+Despois solo temos que poñer na terminal, no noso caso:
+cita.py
+
+--Dende o IDLE--
+Entramos no IDLE e en File/Open seleccionamos o noso cita.py
+Unha vez aberto dámoslle a F5 ou Run/RunModule
+

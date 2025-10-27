@@ -1,0 +1,7 @@
+Dentro de calquera dos dous do exercicio anterior:
+
+import os -->importar os
+os.listdir('.') --> listar directorios
+os.chdir("./diana") -->cambiar de directorio
+os.getcwd() -->ver en que directorio estou
+help(os) --> para a axuda(presionar q para salir)

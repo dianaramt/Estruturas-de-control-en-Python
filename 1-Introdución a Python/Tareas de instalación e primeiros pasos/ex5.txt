@@ -1,0 +1,2 @@
+Para facelo usei o propio VSC, onde teño o proxecto aberto de github.
+Pero para facer programas máis complexos usarei PyCharm
