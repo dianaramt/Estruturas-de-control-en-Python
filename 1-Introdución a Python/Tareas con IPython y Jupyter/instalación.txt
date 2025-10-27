@@ -1,0 +1,7 @@
+pip install ipython
+pip install notebook
+
+------
+ipython 
+jupyter notebook --> abrese en localhost:8888
+
